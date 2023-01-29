@@ -1,0 +1,8 @@
+syntax = "proto3";
+package user;
+option go_package = "github/hisheng/grpc-demo1/api";
+
+message user {
+  int64  id   = 1;
+  string name = 2;
+}
